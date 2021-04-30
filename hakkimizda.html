@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale, maximum-scale-1"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body,html{
+            height: 100%;
+        }
+        nav{
+            position: absolute;
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            line-height: 140px;
+            z-index: 2;
+        }
+        nav a{
+            color: black;
+            font-family: 'Righteous', cursive;
+            font-size: 20px;
+            margin-left: 20px;
+            padding: 12px 12px;
+        }
+        nav a:hover{
+            background-color: white;
+        }
+        .gorsel{
+            height: 100%;
+            background-color: grey;
+            background-attachment: fixed;
+        }
+        #gor1{
+            background-image: url(img/b.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        #bant3{
+            position: 50%;
+            background-color: black;
+            background-attachment: fixed;
+            font-family: monospace;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            z-index: 0;
+        }
+        @media only screen and (max-width: 500px){
+            nav, container , anayazi , arasoz {
+                font-size: 10px;
+            }
+        
+      </style>
+
+    <title>HAKKIMIZDA</title>
+  </head>
+  <body>
+      
+    <nav>
+        <a href="/index.html" title="Anasayfa">ANASAYFA</a>
+        <a href="/gezilenyerler.html" title="Gezilen Yerler">GEZİLEN YERLER</a>
+        <a href="/galeri.html" title="Galeri">GALERİ</a>
+        <a href="/hakkimizda.html" title="Hakkımızda">HAKKIMIZDA</a>
+        <a href="/iletisim.html" title="İletişim">İLETİŞİM</a>
+        <a href="/geziyekatil.html" title="Geziye Katıl">GEZİYE KATIL</a>
+    </nav>
+    
+    <div id="gor1" class="gorsel"></div>
+
+    <div id="bant3" class="bant">
+        <div class="container">
+            <div class="search" >
+            <form role="search" method="get" class="search-form" >
+            <label>
+            <span class="text">Arama:</span>
+            <input type="search" class="search-field" placeholder="Ara" value="" name="s" />
+            </label>
+            <input type="submit" class="search-submit" value="Ara" />
+            </form>
+            </div>
+              <div class="takip" id="text-24">
+               <h3 class="title">Bizi Takip Edin</h3> 
+               <img src="img/sosyalmedya.jpg" height="150">
+               <p>Tel no: 01234567890</p>
+               <p>Adres: İSTANBUL</p>
+               <p>E-mail: istanbul34@gmail.com</p>
+               </div>
+               
+              </div>
+               
+              </div>
+  </body>
+</html>
